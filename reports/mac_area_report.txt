@@ -1,0 +1,60 @@
+
+SKY130 MAC CELL AREA
+======================================================================
+sky130_fd_sc_hd__a211o_1                 1 cells  area=    8.7584  total=      8.7584
+sky130_fd_sc_hd__a21bo_1                 2 cells  area=   10.0096  total=     20.0192
+sky130_fd_sc_hd__a21boi_0                4 cells  area=    7.5072  total=     30.0288
+sky130_fd_sc_hd__a21o_1                 33 cells  area=    7.5072  total=    247.7376
+sky130_fd_sc_hd__a21oi_1               215 cells  area=    5.0048  total=   1076.0320
+sky130_fd_sc_hd__a22o_1                 76 cells  area=    8.7584  total=    665.6384
+sky130_fd_sc_hd__a22oi_1                32 cells  area=    7.5072  total=    240.2304
+sky130_fd_sc_hd__a2bb2oi_1               1 cells  area=    8.7584  total=      8.7584
+sky130_fd_sc_hd__a311oi_1                3 cells  area=    8.7584  total=     26.2752
+sky130_fd_sc_hd__a31o_1                  4 cells  area=    8.7584  total=     35.0336
+sky130_fd_sc_hd__a31oi_1                 8 cells  area=    6.2560  total=     50.0480
+sky130_fd_sc_hd__a32o_1                  3 cells  area=   10.0096  total=     30.0288
+sky130_fd_sc_hd__and2_0                108 cells  area=    6.2560  total=    675.6480
+sky130_fd_sc_hd__and3_1                 46 cells  area=    6.2560  total=    287.7760
+sky130_fd_sc_hd__and4_1                  1 cells  area=    8.7584  total=      8.7584
+sky130_fd_sc_hd__and4b_1                 1 cells  area=   10.0096  total=     10.0096
+sky130_fd_sc_hd__buf_1                  96 cells  area=    3.7536  total=    360.3456
+sky130_fd_sc_hd__clkinv_1              338 cells  area=    3.7536  total=   1268.7168
+sky130_fd_sc_hd__dfrtp_1               229 cells  area=   25.0240  total=   5730.4960
+sky130_fd_sc_hd__lpflow_inputiso1p_1     24 cells  area=    6.2560  total=    150.1440
+sky130_fd_sc_hd__lpflow_isobufsrc_1    250 cells  area=    6.2560  total=   1564.0000
+sky130_fd_sc_hd__maj3_1                462 cells  area=   10.0096  total=   4624.4352
+sky130_fd_sc_hd__mux2_1                 41 cells  area=   11.2608  total=    461.6928
+sky130_fd_sc_hd__nand2_1              1040 cells  area=    3.7536  total=   3903.7440
+sky130_fd_sc_hd__nand2b_1               77 cells  area=    6.2560  total=    481.7120
+sky130_fd_sc_hd__nand3_1                88 cells  area=    5.0048  total=    440.4224
+sky130_fd_sc_hd__nand3b_1                3 cells  area=    7.5072  total=     22.5216
+sky130_fd_sc_hd__nand4_1                45 cells  area=    6.2560  total=    281.5200
+sky130_fd_sc_hd__nand4b_1                1 cells  area=    8.7584  total=      8.7584
+sky130_fd_sc_hd__nor2_1                346 cells  area=    3.7536  total=   1298.7456
+sky130_fd_sc_hd__nor2b_1                27 cells  area=    6.2560  total=    168.9120
+sky130_fd_sc_hd__nor3_1                110 cells  area=    5.0048  total=    550.5280
+sky130_fd_sc_hd__nor3b_1                 1 cells  area=    7.5072  total=      7.5072
+sky130_fd_sc_hd__nor4b_1                 4 cells  area=    8.7584  total=     35.0336
+sky130_fd_sc_hd__o2111ai_1               1 cells  area=    8.7584  total=      8.7584
+sky130_fd_sc_hd__o21a_1                 26 cells  area=    7.5072  total=    195.1872
+sky130_fd_sc_hd__o21ai_0               284 cells  area=    5.0048  total=   1421.3632
+sky130_fd_sc_hd__o21ba_1                 1 cells  area=   10.0096  total=     10.0096
+sky130_fd_sc_hd__o21bai_1               18 cells  area=    7.5072  total=    135.1296
+sky130_fd_sc_hd__o22a_1                 72 cells  area=    8.7584  total=    630.6048
+sky130_fd_sc_hd__o22ai_1                 9 cells  area=    6.2560  total=     56.3040
+sky130_fd_sc_hd__o311a_1                 1 cells  area=   10.0096  total=     10.0096
+sky130_fd_sc_hd__o311ai_0                4 cells  area=    8.7584  total=     35.0336
+sky130_fd_sc_hd__o31a_1                  1 cells  area=    8.7584  total=      8.7584
+sky130_fd_sc_hd__o31ai_1                 8 cells  area=    7.5072  total=     60.0576
+sky130_fd_sc_hd__o32a_1                  1 cells  area=   10.0096  total=     10.0096
+sky130_fd_sc_hd__or3_1                  25 cells  area=    6.2560  total=    156.4000
+sky130_fd_sc_hd__or4_1                   1 cells  area=    7.5072  total=      7.5072
+sky130_fd_sc_hd__or4b_1                  1 cells  area=   10.0096  total=     10.0096
+sky130_fd_sc_hd__xnor2_1              1006 cells  area=    8.7584  total=   8810.9504
+sky130_fd_sc_hd__xnor3_1                52 cells  area=   22.5216  total=   1171.1232
+sky130_fd_sc_hd__xor2_1                566 cells  area=    8.7584  total=   4957.2544
+sky130_fd_sc_hd__xor3_1                 39 cells  area=   23.7728  total=    927.1392
+======================================================================
+Total SKY130 cells : 5836
+Total cell area    : 43401.6256
+Area units         : Liberty library units

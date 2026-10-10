@@ -1,0 +1,31 @@
+read_liberty -lib timing_lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog -sv mac_unit.sv
+read_verilog -sv mac_controller.sv
+read_verilog -sv mac_execution_unit.sv
+read_verilog -sv mac_synth_top.sv
+
+read_verilog sky130_yosys_cells.v
+
+hierarchy -top mac_synth_top
+
+proc
+opt
+memory
+opt
+fsm
+opt
+flatten
+opt
+techmap
+opt
+
+dfflibmap -liberty timing_lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty timing_lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+clean
+opt
+
+stat
+
+write_verilog -noattr -noexpr -simple-lhs synthesized_sky130_mac.v

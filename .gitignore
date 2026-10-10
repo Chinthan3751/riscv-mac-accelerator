@@ -1,0 +1,37 @@
+# Python virtual environment
+.venv/
+
+# SKY130 PDK
+skywater-pdk/
+skywater-pdk-libs-sky130_fd_sc_hd/
+
+# Timing library
+timing_lib/
+
+# Simulation history
+.history_sta
+
+# Simulation executables
+simulation/*_sim
+simulation/mac_sim
+simulation/mac_decoder_sim
+simulation/mac_execution_sim
+simulation/riscv_sim
+simulation/register_test
+
+# Generated waveforms
+simulation/*.vcd
+
+# Generated synthesis outputs
+synthesis/synthesized_*.v
+synthesis/synthesized_*.json
+
+# Temporary/test files
+test.v
+test_mapped.v
+
+# OS/editor files
+*.swp
+*.swo
+*~
+.DS_Store

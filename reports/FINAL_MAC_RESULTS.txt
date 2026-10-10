@@ -1,0 +1,68 @@
+============================================================
+RISC-V PROCESSOR WITH HARDWARE MAC ACCELERATOR
+FINAL MAC SYNTHESIS RESULTS
+============================================================
+
+MAC FUNCTION
+------------
+Operation       : A × B + C
+Input Width     : 32-bit A
+Input Width     : 32-bit B
+Input Width     : 32-bit C
+Output Width    : 64-bit
+Technology      : SKY130 FD-SC-HD
+Library         : tt_025C_1v80
+Condition       : 25°C, 1.8V
+
+RTL VERIFICATION
+----------------
+MAC 1           : 6 × 7 + 10 = 52
+MAC 2           : 10 × 20 + 30 = 230
+MAC 3           : 100 × 5 + 25 = 525
+Verification    : PASS
+
+SYNTHESIS
+---------
+Physical Cells : 5836
+Cell Area      : 43401.6256 Liberty area units
+
+TIMING
+------
+Critical Delay : 16.034 ns
+Clock Period   : 16.2 ns
+Frequency      : 61.73 MHz
+Slack          : +0.039 ns
+WNS            : 0.00 ns
+TNS            : 0.00 ns
+Timing Status  : PASS
+
+TIMING LIMIT
+------------
+16.16 ns       : FAIL (-0.001 ns slack)
+16.20 ns       : PASS (+0.039 ns slack)
+
+Therefore, the maximum VERIFIED operating frequency
+is approximately 61.73 MHz.
+
+TOOLS
+-----
+RTL Simulation : Icarus Verilog
+Waveform       : GTKWave
+Synthesis      : Yosys
+Timing Analysis: OpenSTA
+Technology     : SKY130 FD-SC-HD
+
+REPORT FILES
+------------
+mac_timing_report.txt
+mac_area_report.txt
+FINAL_MAC_RESULTS.txt
+
+NOTE
+----
+Timing results are based on OpenSTA analysis using the
+SKY130 tt_025C_1v80 Liberty library. The Liberty file
+produces a default operating condition warning in OpenSTA,
+so these results should be described as synthesis/timing
+analysis results rather than ASIC sign-off timing.
+============================================================

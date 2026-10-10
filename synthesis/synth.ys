@@ -1,0 +1,30 @@
+read_verilog -sv alu.sv
+read_verilog -sv register_file.sv
+read_verilog -sv immediate_generator.sv
+read_verilog -sv program_counter.sv
+read_verilog -sv instruction_memory.sv
+read_verilog -sv data_memory.sv
+read_verilog -sv cpu_datapath.sv
+read_verilog -sv control_unit.sv
+
+read_verilog -sv mac_unit.sv
+read_verilog -sv mac_controller.sv
+read_verilog -sv mac_instruction_decoder.sv
+read_verilog -sv mac_execution_unit.sv
+
+read_verilog -sv riscv_cpu.sv
+read_verilog -sv riscv_synth_top.sv
+
+hierarchy -top riscv_synth_top
+
+proc
+opt
+memory
+opt
+fsm
+opt
+techmap
+opt
+
+stat
+write_verilog -noattr synthesized_riscv_cpu.v
